@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  data-science:
+    build: ./data-science
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks
+
+  demo-api:
+    build: ./demo-api
+    ports:
+      - 80:80
+
+# database for DS to query
+# mlflow
+# mlops-demo-api
