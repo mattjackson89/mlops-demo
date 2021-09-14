@@ -1,0 +1,2225 @@
+﻿[{
+		"compound_id": 1117973,
+		"smiles": "Cc1nnc2[C@H](NC(=O)OCc3ccccc3)N=C(c4ccccc4)c5ccccc5n12",
+		"molecular_weight": 423.46654,
+		"ALogP": 4.686,
+		"molecular_formula": "C25H21N5O2",
+		"num_rings": 5,
+		"image": "images/1117973.png",
+		"assay_results": [{
+				"result_id": 8046397,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 15.5,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161673,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 140,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8056056,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 19,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161626,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 24,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046406,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 52.5,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046396,
+				"target": "Bromodomain-containing protein 3",
+				"result": "IC50",
+				"operator": "=",
+				"value": 28.4,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161628,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 19,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046405,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 46,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046395,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 29.9,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161630,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 52,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046404,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 52,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 694811,
+		"smiles": "CCNC(=O)C[C@@H]1N=C(c2ccc(Cl)cc2)c3cc(OC)ccc3n4c(C)nnc14",
+		"molecular_weight": 423.89538,
+		"ALogP": 3.288,
+		"molecular_formula": "C22H22ClN5O2",
+		"num_rings": 4,
+		"image": "images/694811.png",
+		"assay_results": [{
+				"result_id": 8046403,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 36.1,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161672,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 190,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161625,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 49,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046400,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 55.2,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046402,
+				"target": "Bromodomain-containing protein 3",
+				"result": "IC50",
+				"operator": "=",
+				"value": 42.4,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046399,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 50.5,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161627,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 89,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046401,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 32.5,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046398,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 61.3,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161629,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 101,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1282795,
+		"smiles": "Cc1sc2c(C(=N[C@@H](CC(=O)OC(C)(C)C)c3nnc(C)n23)c4ccc(Cl)cc4)c1C",
+		"molecular_weight": 456.9882,
+		"ALogP": 4.953,
+		"molecular_formula": "C23H25ClN4O2S",
+		"num_rings": 4,
+		"image": "images/1282795.png",
+		"assay_results": [{
+				"result_id": 8046392,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 33,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046391,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 77,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8055998,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 49,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046388,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 49,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8056055,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 60,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046389,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 90.1,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046386,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 59.5,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046387,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 82,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8046385,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 128.4,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1424122,
+		"smiles": "Cc1nnc2C(NC(=O)OCc3ccccc3)N=C(c4ccccc4)c5ccccc5n12",
+		"molecular_weight": 423.46654,
+		"ALogP": 4.686,
+		"molecular_formula": "C25H21N5O2",
+		"num_rings": 5,
+		"image": "images/1424122.png",
+		"assay_results": [{
+				"result_id": 12062961,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 19,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062960,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 19,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062959,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 19,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062962,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 46,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062966,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 52,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062963,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 52.5,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062974,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 54,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12062973,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 220,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1279938,
+		"smiles": "CC(=O)c1cc(c2ccccn2)c3ccccn13",
+		"molecular_weight": 236.26858,
+		"ALogP": 2.49,
+		"molecular_formula": "C15H12N2O",
+		"num_rings": 3,
+		"image": "images/1279938.png",
+		"assay_results": [{
+				"result_id": 8034566,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 2000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034563,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 10000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034565,
+				"target": "Bromodomain-containing protein 3",
+				"result": "IC50",
+				"operator": "=",
+				"value": 2500,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034562,
+				"target": "Bromodomain-containing protein 3",
+				"result": "IC50",
+				"operator": "=",
+				"value": 6300,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034564,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 2000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034561,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 12600,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 2072554,
+		"smiles": "CC(=O)NCCCCn1c2CCNC(=O)c2c3ccccc13",
+		"molecular_weight": 299.36754,
+		"ALogP": 1.451,
+		"molecular_formula": "C17H21N3O2",
+		"num_rings": 3,
+		"image": "images/2072554.png",
+		"assay_results": [{
+				"result_id": 18201146,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 3300,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201147,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": ">",
+				"value": 300000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201148,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 3700,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201149,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": ">",
+				"value": 300000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201150,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 8600,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1566719,
+		"smiles": "COc1cc(OC)c2C(=O)NC(=Nc2c1)c3cc(C)c(OCCO)c(C)c3",
+		"molecular_weight": 370.39908,
+		"ALogP": 2.877,
+		"molecular_formula": "C20H22N2O5",
+		"num_rings": 3,
+		"image": "images/1566719.png",
+		"assay_results": [{
+				"result_id": 18201140,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 195,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201138,
+				"target": "Bromodomain-containing protein 3",
+				"result": "Kd",
+				"operator": "=",
+				"value": 4065,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201141,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 251,
+				"unit": "nM"
+			},
+			{
+				"result_id": 18201139,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 5780,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175669,
+		"smiles": "CN1Cc2cc(ccc2NC1=O)c3c(C)onc3C",
+		"molecular_weight": 257.2878,
+		"ALogP": 1.306,
+		"molecular_formula": "C14H15N3O2",
+		"num_rings": 3,
+		"image": "images/1175669.png",
+		"assay_results": [{
+				"result_id": 6364731,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 4800,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6365475,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 7000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6365474,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 3000,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1442546,
+		"smiles": "Cc1onc(C)c1c2ccc(OCCCN3CCOCC3)c(c2)S(=O)(=O)NC4CCCC4",
+		"molecular_weight": 463.59022,
+		"ALogP": 2.416,
+		"molecular_formula": "C23H33N3O5S",
+		"num_rings": 4,
+		"image": "images/1442546.png",
+		"assay_results": [{
+				"result_id": 12161631,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 2600,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161570,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 2750,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12161571,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 3140,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175670,
+		"smiles": "Cc1onc(C)c1c2ccccc2",
+		"molecular_weight": 173.21114,
+		"ALogP": 2.23,
+		"molecular_formula": "C11H11NO",
+		"num_rings": 2,
+		"image": "images/1175670.png",
+		"assay_results": [{
+				"result_id": 6364732,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 84200,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12733077,
+				"target": "Bromodomain-containing protein 4",
+				"result": "Kd",
+				"operator": "=",
+				"value": 50,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364741,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 34300,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1279939,
+		"smiles": "CN1Cc2cc(ccc2N(C)C1=O)S(=O)(=O)N3CCOCC3",
+		"molecular_weight": 325.38336,
+		"ALogP": -8.4e-002,
+		"molecular_formula": "C14H19N3O4S",
+		"num_rings": 3,
+		"image": "images/1279939.png",
+		"assay_results": [{
+				"result_id": 8034577,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 30000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034576,
+				"target": "Bromodomain-containing protein 3",
+				"result": "IC50",
+				"operator": "=",
+				"value": 30000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 8034575,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 30000,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1445393,
+		"smiles": "CC(C)(C)NS(=O)(=O)c1cncc(c1)c2ccn3nc(N)nc3c2",
+		"molecular_weight": 346.40742,
+		"ALogP": 0.61,
+		"molecular_formula": "C15H18N6O2S",
+		"num_rings": 3,
+		"image": "images/1445393.png",
+		"assay_results": [{
+				"result_id": 12185151,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": ">",
+				"value": 10000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12185152,
+				"target": "Bromodomain-containing protein 3",
+				"result": "IC50",
+				"operator": ">",
+				"value": 10000,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1117824,
+		"smiles": "CN1C(=S)N(CCSc2nc3ccccc3[nH]2)c4ccccc14",
+		"molecular_weight": 340.46574,
+		"ALogP": 5.491,
+		"molecular_formula": "C17H16N4S2",
+		"num_rings": 4,
+		"image": "images/1117824.png",
+		"assay_results": [{
+				"result_id": 8046394,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 28000,
+				"unit": "nM"
+			},
+			{
+				"result_id": 12139756,
+				"target": "Bromodomain-containing protein 2",
+				"result": "Kd",
+				"operator": "=",
+				"value": 28000,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175676,
+		"smiles": "CCOc1cc(cc(c1)c2c(C)onc2C)C(=O)C",
+		"molecular_weight": 259.30038,
+		"ALogP": 2.302,
+		"molecular_formula": "C15H17NO3",
+		"num_rings": 2,
+		"image": "images/1175676.png",
+		"assay_results": [{
+				"result_id": 6364738,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 7500,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364747,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 2300,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175671,
+		"smiles": "CC(=O)c1cccc(c1)c2c(C)onc2C",
+		"molecular_weight": 215.24782,
+		"ALogP": 1.97,
+		"molecular_formula": "C13H13NO2",
+		"num_rings": 2,
+		"image": "images/1175671.png",
+		"assay_results": [{
+				"result_id": 6364733,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 24600,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364742,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 6000,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175672,
+		"smiles": "CCOc1cccc(c1)c2c(C)onc2C",
+		"molecular_weight": 217.2637,
+		"ALogP": 2.563,
+		"molecular_formula": "C13H15NO2",
+		"num_rings": 2,
+		"image": "images/1175672.png",
+		"assay_results": [{
+				"result_id": 6364734,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 23200,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364743,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 7400,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175677,
+		"smiles": "CCOc1cc(cc(c1)c2c(C)onc2C)C(C)O",
+		"molecular_weight": 261.31626,
+		"ALogP": 2.335,
+		"molecular_formula": "C15H19NO3",
+		"num_rings": 2,
+		"image": "images/1175677.png",
+		"assay_results": [{
+				"result_id": 6364739,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 4800,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364748,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 1600,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175675,
+		"smiles": "CCOc1cc(cc(c1)c2c(C)onc2C)C(=O)O",
+		"molecular_weight": 261.2732,
+		"ALogP": 2.192,
+		"molecular_formula": "C14H15NO4",
+		"num_rings": 2,
+		"image": "images/1175675.png",
+		"assay_results": [{
+				"result_id": 6364737,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 51200,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364746,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 28200,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175674,
+		"smiles": "CCOC(=O)c1cc(OCC)cc(c1)c2c(C)onc2C",
+		"molecular_weight": 289.32636,
+		"ALogP": 2.767,
+		"molecular_formula": "C16H19NO4",
+		"num_rings": 2,
+		"image": "images/1175674.png",
+		"assay_results": [{
+				"result_id": 6364736,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 7700,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364745,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 3300,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 1175673,
+		"smiles": "CC(O)c1cccc(c1)c2c(C)onc2C",
+		"molecular_weight": 217.2637,
+		"ALogP": 2.003,
+		"molecular_formula": "C13H15NO2",
+		"num_rings": 2,
+		"image": "images/1175673.png",
+		"assay_results": [{
+				"result_id": 6364735,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 9700,
+				"unit": "nM"
+			},
+			{
+				"result_id": 6364744,
+				"target": "Bromodomain-containing protein 2",
+				"result": "IC50",
+				"operator": "=",
+				"value": 4200,
+				"unit": "nM"
+			}
+		]
+	},
+	{
+		"compound_id": 2195979,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CNC(=O)c3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 533.52271,
+		"ALogP": 3.213,
+		"molecular_formula": "C29H25F2N3O5",
+		"num_rings": 4,
+		"image": "images/2195979.png",
+		"assay_results": [{
+			"result_id": 17790209,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 226,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2126244,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccccc3OC)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 520.52395,
+		"ALogP": 4.171,
+		"molecular_formula": "C29H26F2N2O5",
+		"num_rings": 4,
+		"image": "images/2126244.png",
+		"assay_results": [{
+			"result_id": 17790208,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 89.5,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2132891,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCC(=O)c3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 532.53465,
+		"ALogP": 4.108,
+		"molecular_formula": "C30H26F2N2O5",
+		"num_rings": 4,
+		"image": "images/2132891.png",
+		"assay_results": [{
+			"result_id": 17790205,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 224,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2145299,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccc(cc3)c4ccccc4)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 566.59393,
+		"ALogP": 5.706,
+		"molecular_formula": "C34H28F2N2O4",
+		"num_rings": 5,
+		"image": "images/2145299.png",
+		"assay_results": [{
+			"result_id": 17790204,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 911,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2150146,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccc(Oc4ccccc4)cc3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 582.59333,
+		"ALogP": 5.748,
+		"molecular_formula": "C34H28F2N2O5",
+		"num_rings": 5,
+		"image": "images/2150146.png",
+		"assay_results": [{
+			"result_id": 17790199,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 1690,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2132279,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCc3ccc(OC)c(OC)c3OC)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 594.60249,
+		"ALogP": 4.595,
+		"molecular_formula": "C32H32F2N2O7",
+		"num_rings": 4,
+		"image": "images/2132279.png",
+		"assay_results": [{
+			"result_id": 17790196,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 156,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2168706,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)COc3ccc(C)cc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 520.52395,
+		"ALogP": 4.474,
+		"molecular_formula": "C29H26F2N2O5",
+		"num_rings": 4,
+		"image": "images/2168706.png",
+		"assay_results": [{
+			"result_id": 17790195,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 71.8,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2137686,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CNS(=O)(=O)c3ccc(C)cc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 583.60299,
+		"ALogP": 3.402,
+		"molecular_formula": "C29H27F2N3O6S",
+		"num_rings": 4,
+		"image": "images/2137686.png",
+		"assay_results": [{
+			"result_id": 17790194,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 248,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2191296,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCOc3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 520.52395,
+		"ALogP": 4.236,
+		"molecular_formula": "C29H26F2N2O5",
+		"num_rings": 4,
+		"image": "images/2191296.png",
+		"assay_results": [{
+			"result_id": 17790192,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 188,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2114212,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccc(cc3)S(=O)(=O)C)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 568.58835,
+		"ALogP": 3.714,
+		"molecular_formula": "C29H26F2N2O6S",
+		"num_rings": 4,
+		"image": "images/2114212.png",
+		"assay_results": [{
+			"result_id": 17790191,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 131,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2136098,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCS(=O)(=O)c3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 568.58835,
+		"ALogP": 3.779,
+		"molecular_formula": "C29H26F2N2O6S",
+		"num_rings": 4,
+		"image": "images/2136098.png",
+		"assay_results": [{
+			"result_id": 17790189,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 242,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2100565,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3cccc(Cl)c3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 525.93109,
+		"ALogP": 4.725,
+		"molecular_formula": "C27H22ClF2N3O4",
+		"num_rings": 4,
+		"image": "images/2100565.png",
+		"assay_results": [{
+			"result_id": 17790183,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 1280,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2128650,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3ccc(F)cc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 509.47649,
+		"ALogP": 4.266,
+		"molecular_formula": "C27H22F3N3O4",
+		"num_rings": 4,
+		"image": "images/2128650.png",
+		"assay_results": [{
+			"result_id": 17790182,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 716,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2106048,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3cc(C)ccc3C)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 519.53919,
+		"ALogP": 5.033,
+		"molecular_formula": "C29H27F2N3O4",
+		"num_rings": 4,
+		"image": "images/2106048.png",
+		"assay_results": [{
+			"result_id": 17790181,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 575,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2114296,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3cc(C)cc(C)c3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 519.53919,
+		"ALogP": 5.033,
+		"molecular_formula": "C29H27F2N3O4",
+		"num_rings": 4,
+		"image": "images/2114296.png",
+		"assay_results": [{
+			"result_id": 17790179,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 725,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2173800,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCCCC(=O)OC)ccc2Oc3ccc(F)cc3F",
+		"molecular_weight": 472.48115,
+		"ALogP": 3.453,
+		"molecular_formula": "C25H26F2N2O5",
+		"num_rings": 3,
+		"image": "images/2173800.png",
+		"assay_results": [{
+			"result_id": 17790176,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 248,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2135811,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ccnn3C)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 466.47987,
+		"ALogP": 3.488,
+		"molecular_formula": "C25H24F2N4O3",
+		"num_rings": 4,
+		"image": "images/2135811.png",
+		"assay_results": [{
+			"result_id": 17790175,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 375,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2106568,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3cn4CCCc4n3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 492.51715,
+		"ALogP": 3.585,
+		"molecular_formula": "C27H26F2N4O3",
+		"num_rings": 5,
+		"image": "images/2106568.png",
+		"assay_results": [{
+			"result_id": 17790172,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 608,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2161598,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3cnn(C)c3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 494.48997,
+		"ALogP": 2.838,
+		"molecular_formula": "C26H24F2N4O4",
+		"num_rings": 4,
+		"image": "images/2161598.png",
+		"assay_results": [{
+			"result_id": 17790166,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 244,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2216949,
+		"smiles": "Cc1sc2c(C(=N[C@@H](CC(=O)OCCCCCCO)c3nnc(C)n23)c4ccc(Cl)cc4)c1C",
+		"molecular_weight": 501.04076,
+		"ALogP": 5.037,
+		"molecular_formula": "C25H29ClN4O3S",
+		"num_rings": 4,
+		"image": "images/2216949.png",
+		"assay_results": [{
+			"result_id": 18201037,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 0.43,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2238695,
+		"smiles": "Cc1sc2c(C(=N[C@H](CC(=O)OC3CCC(O)CC3)c4nnc(C)n24)c5ccc(Cl)cc5)c1C",
+		"molecular_weight": 499.02488,
+		"ALogP": 4.643,
+		"molecular_formula": "C25H27ClN4O3S",
+		"num_rings": 5,
+		"image": "images/2238695.png",
+		"assay_results": [{
+			"result_id": 18201038,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 1.3,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2185083,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3ccc(C)cc3C)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 519.53919,
+		"ALogP": 5.033,
+		"molecular_formula": "C29H27F2N3O4",
+		"num_rings": 4,
+		"image": "images/2185083.png",
+		"assay_results": [{
+			"result_id": 17790178,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 504,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2102749,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3cnc(C)s3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 511.54033,
+		"ALogP": 3.195,
+		"molecular_formula": "C26H23F2N3O4S",
+		"num_rings": 4,
+		"image": "images/2102749.png",
+		"assay_results": [{
+			"result_id": 17790169,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 288,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2122827,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3c(F)cccc3F)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 498.46879,
+		"ALogP": 5.171,
+		"molecular_formula": "C27H22F4N2O3",
+		"num_rings": 4,
+		"image": "images/2122827.png",
+		"assay_results": [{
+			"result_id": 17790215,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 324,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2171840,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCc3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 504.52455,
+		"ALogP": 4.644,
+		"molecular_formula": "C29H26F2N2O4",
+		"num_rings": 4,
+		"image": "images/2171840.png",
+		"assay_results": [{
+			"result_id": 17790203,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 68.5,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2188194,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3cccc(Oc4ccccc4)c3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 582.59333,
+		"ALogP": 5.748,
+		"molecular_formula": "C34H28F2N2O5",
+		"num_rings": 5,
+		"image": "images/2188194.png",
+		"assay_results": [{
+			"result_id": 17790190,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2174515,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3cccc(Oc4ccccc4)c3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 583.58139,
+		"ALogP": 5.621,
+		"molecular_formula": "C33H27F2N3O5",
+		"num_rings": 5,
+		"image": "images/2174515.png",
+		"assay_results": [{
+			"result_id": 17790177,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 255,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2124927,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccc(Cl)cc3F)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 542.93349,
+		"ALogP": 5.058,
+		"molecular_formula": "C28H22ClF3N2O4",
+		"num_rings": 4,
+		"image": "images/2124927.png",
+		"assay_results": [{
+			"result_id": 17790165,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 339,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2191624,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ccc(Oc4ccccc4)cc3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 554.58323,
+		"ALogP": 6.32,
+		"molecular_formula": "C33H28F2N2O4",
+		"num_rings": 5,
+		"image": "images/2191624.png",
+		"assay_results": [{
+			"result_id": 17790224,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2101238,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccc4ccccc4c3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 540.55665,
+		"ALogP": 5.096,
+		"molecular_formula": "C32H26F2N2O4",
+		"num_rings": 5,
+		"image": "images/2101238.png",
+		"assay_results": [{
+			"result_id": 17790201,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 329,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2130758,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3cc(C)n(C)n3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 508.51655,
+		"ALogP": 3.412,
+		"molecular_formula": "C27H26F2N4O4",
+		"num_rings": 4,
+		"image": "images/2130758.png",
+		"assay_results": [{
+			"result_id": 17790168,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 280,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2168158,
+		"smiles": "CCCCOc1ccc(CNc2ccc(Oc3ccc(F)cc3F)c(c2)C4=CN(C)C(=O)C=C4OCC)cc1",
+		"molecular_weight": 534.59359,
+		"ALogP": 6.073,
+		"molecular_formula": "C31H32F2N2O4",
+		"num_rings": 4,
+		"image": "images/2168158.png",
+		"assay_results": [{
+			"result_id": 17790223,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 2190,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2099118,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3oc(cc3)c4ccccc4C(F)(F)F)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 596.54392,
+		"ALogP": 6.694,
+		"molecular_formula": "C32H25F5N2O4",
+		"num_rings": 5,
+		"image": "images/2099118.png",
+		"assay_results": [{
+			"result_id": 17790222,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2141906,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ccccc3C#N)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 487.49733,
+		"ALogP": 4.639,
+		"molecular_formula": "C28H23F2N3O3",
+		"num_rings": 4,
+		"image": "images/2141906.png",
+		"assay_results": [{
+			"result_id": 17790219,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 150,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2113909,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ccc(cc3)C#N)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 487.49733,
+		"ALogP": 4.639,
+		"molecular_formula": "C28H23F2N3O3",
+		"num_rings": 4,
+		"image": "images/2113909.png",
+		"assay_results": [{
+			"result_id": 17790218,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 247,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2192646,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ccc(cc3)C(C)(C)C)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 518.59419,
+		"ALogP": 6.161,
+		"molecular_formula": "C31H32F2N2O3",
+		"num_rings": 4,
+		"image": "images/2192646.png",
+		"assay_results": [{
+			"result_id": 17790214,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2117369,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ccc(OCc4ccccc4)cc3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 568.60981,
+		"ALogP": 6.327,
+		"molecular_formula": "C34H30F2N2O4",
+		"num_rings": 5,
+		"image": "images/2117369.png",
+		"assay_results": [{
+			"result_id": 17790213,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2184661,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3cccc(OC)c3OCc4ccccc4)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 598.63579,
+		"ALogP": 6.311,
+		"molecular_formula": "C35H32F2N2O5",
+		"num_rings": 5,
+		"image": "images/2184661.png",
+		"assay_results": [{
+			"result_id": 17790212,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 991,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2179538,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CC3CCCCC3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 496.54561,
+		"ALogP": 4.86,
+		"molecular_formula": "C28H30F2N2O4",
+		"num_rings": 4,
+		"image": "images/2179538.png",
+		"assay_results": [{
+			"result_id": 17790210,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 111,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442554,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)Nc3ccccc3Cl",
+		"molecular_weight": 376.85718,
+		"ALogP": 3.868,
+		"molecular_formula": "C18H17ClN2O3S",
+		"num_rings": 3,
+		"image": "images/1442554.png",
+		"assay_results": [{
+			"result_id": 12161665,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 3000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442555,
+		"smiles": "COc1ccc(cc1S(=O)(=O)Nc2ccccc2Cl)c3c(C)onc3C",
+		"molecular_weight": 392.85658,
+		"ALogP": 3.366,
+		"molecular_formula": "C18H17ClN2O4S",
+		"num_rings": 3,
+		"image": "images/1442555.png",
+		"assay_results": [{
+			"result_id": 12161664,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 7600,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442556,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)Nc3cccc(Cl)c3",
+		"molecular_weight": 376.85718,
+		"ALogP": 3.868,
+		"molecular_formula": "C18H17ClN2O3S",
+		"num_rings": 3,
+		"image": "images/1442556.png",
+		"assay_results": [{
+			"result_id": 12161663,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 3300,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442558,
+		"smiles": "COc1ccccc1NS(=O)(=O)c2cc(ccc2C)c3c(C)onc3C",
+		"molecular_weight": 372.4381,
+		"ALogP": 3.188,
+		"molecular_formula": "C19H20N2O4S",
+		"num_rings": 3,
+		"image": "images/1442558.png",
+		"assay_results": [{
+			"result_id": 12161661,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 2800,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442559,
+		"smiles": "COc1ccccc1NS(=O)(=O)c2cc(ccc2OC)c3c(C)onc3C",
+		"molecular_weight": 388.4375,
+		"ALogP": 2.685,
+		"molecular_formula": "C19H20N2O5S",
+		"num_rings": 3,
+		"image": "images/1442559.png",
+		"assay_results": [{
+			"result_id": 12161660,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 8200,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442563,
+		"smiles": "COc1ccc(NS(=O)(=O)c2cc(ccc2OC)c3c(C)onc3C)cc1",
+		"molecular_weight": 388.4375,
+		"ALogP": 2.685,
+		"molecular_formula": "C19H20N2O5S",
+		"num_rings": 3,
+		"image": "images/1442563.png",
+		"assay_results": [{
+			"result_id": 12161656,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 16000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442565,
+		"smiles": "COc1ccc(cc1S(=O)(=O)NCc2ccccc2)c3c(C)onc3C",
+		"molecular_weight": 372.4381,
+		"ALogP": 2.708,
+		"molecular_formula": "C19H20N2O4S",
+		"num_rings": 3,
+		"image": "images/1442565.png",
+		"assay_results": [{
+			"result_id": 12161654,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 20000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442566,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)NCCc3ccccc3",
+		"molecular_weight": 370.46528,
+		"ALogP": 3.532,
+		"molecular_formula": "C20H22N2O3S",
+		"num_rings": 3,
+		"image": "images/1442566.png",
+		"assay_results": [{
+			"result_id": 12161653,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 4400,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442570,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)NC(C)(C)C",
+		"molecular_weight": 322.42248,
+		"ALogP": 2.559,
+		"molecular_formula": "C16H22N2O3S",
+		"num_rings": 2,
+		"image": "images/1442570.png",
+		"assay_results": [{
+			"result_id": 12161649,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 2000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442530,
+		"smiles": "CCNS(=O)(=O)c1cc(ccc1C)c2c(C)onc2C",
+		"molecular_weight": 294.36932,
+		"ALogP": 1.976,
+		"molecular_formula": "C14H18N2O3S",
+		"num_rings": 2,
+		"image": "images/1442530.png",
+		"assay_results": [{
+			"result_id": 12161647,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 2400,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442531,
+		"smiles": "COc1ccc(cc1S(=O)(=O)N(C)C2CCCC2)c3c(C)onc3C",
+		"molecular_weight": 364.45916,
+		"ALogP": 2.733,
+		"molecular_formula": "C18H24N2O4S",
+		"num_rings": 3,
+		"image": "images/1442531.png",
+		"assay_results": [{
+			"result_id": 12161646,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 1000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442533,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)N3CCCC3",
+		"molecular_weight": 320.4066,
+		"ALogP": 2.294,
+		"molecular_formula": "C16H20N2O3S",
+		"num_rings": 3,
+		"image": "images/1442533.png",
+		"assay_results": [{
+			"result_id": 12161644,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 1800,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442537,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)N3CCOCC3",
+		"molecular_weight": 336.406,
+		"ALogP": 1.521,
+		"molecular_formula": "C16H20N2O4S",
+		"num_rings": 3,
+		"image": "images/1442537.png",
+		"assay_results": [{
+			"result_id": 12161640,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 4200,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442538,
+		"smiles": "COc1ccc(cc1S(=O)(=O)N2CCOCC2)c3c(C)onc3C",
+		"molecular_weight": 352.4054,
+		"ALogP": 1.018,
+		"molecular_formula": "C16H20N2O5S",
+		"num_rings": 3,
+		"image": "images/1442538.png",
+		"assay_results": [{
+			"result_id": 12161639,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 11000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442541,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)NC3CCCNC3",
+		"molecular_weight": 349.44782,
+		"ALogP": 1.72,
+		"molecular_formula": "C17H23N3O3S",
+		"num_rings": 3,
+		"image": "images/1442541.png",
+		"assay_results": [{
+			"result_id": 12161636,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 10000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442540,
+		"smiles": "COc1ccc(cc1S(=O)(=O)NC2CCNCC2)c3c(C)onc3C",
+		"molecular_weight": 365.44722,
+		"ALogP": 0.7,
+		"molecular_formula": "C17H23N3O4S",
+		"num_rings": 3,
+		"image": "images/1442540.png",
+		"assay_results": [{
+			"result_id": 12161637,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 22000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1283877,
+		"smiles": "CN1N=C(c2ccccc2)c3cc(Cl)ccc3n4c(C)nnc14",
+		"molecular_weight": 323.77956,
+		"ALogP": 4.082,
+		"molecular_formula": "C17H14ClN5",
+		"num_rings": 4,
+		"image": "images/1283877.png",
+		"assay_results": [{
+			"result_id": 8056000,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 640,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 27648,
+		"smiles": "Cc1nnc2CN=C(c3ccccc3)c4cc(Cl)ccc4n12",
+		"molecular_weight": 308.76492,
+		"ALogP": 3.513,
+		"molecular_formula": "C17H13ClN4",
+		"num_rings": 4,
+		"image": "images/27648.png",
+		"assay_results": [{
+			"result_id": 8055999,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 2460,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1424737,
+		"smiles": "COCCN(CC(=O)N(CCCCN)CC(=O)N(CCCCN)CC(=O)N)C(=O)CN(CCCCN)C(=O)CN(CCc1ccc(O)cc1)C(=O)CNCC(C)C",
+		"molecular_weight": 807.0353,
+		"ALogP": -2.87,
+		"molecular_formula": "C39H70N10O8",
+		"num_rings": 1,
+		"image": "images/1424737.png",
+		"assay_results": [{
+			"result_id": 12072794,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 50000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1283887,
+		"smiles": "CCNC(=O)C[C@@H]1N=C(c2ccc(Cl)cc2)c3ccc(OC)cc3n4c(C)nnc14",
+		"molecular_weight": 423.89538,
+		"ALogP": 3.288,
+		"molecular_formula": "C22H22ClN5O2",
+		"num_rings": 4,
+		"image": "images/1283887.png",
+		"assay_results": [{
+			"result_id": 8056057,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 50,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2193125,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3cc(F)ccc3Cl)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 542.93349,
+		"ALogP": 5.058,
+		"molecular_formula": "C28H22ClF3N2O4",
+		"num_rings": 4,
+		"image": "images/2193125.png",
+		"assay_results": [{
+			"result_id": 17790163,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 331,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2159469,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3cccc(c3)C#N)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 487.49733,
+		"ALogP": 4.639,
+		"molecular_formula": "C28H23F2N3O3",
+		"num_rings": 4,
+		"image": "images/2159469.png",
+		"assay_results": [{
+			"result_id": 17790225,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 352,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2182646,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3c(C)nn(c3Cl)c4ccccc4)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 577.02089,
+		"ALogP": 5.728,
+		"molecular_formula": "C31H27ClF2N4O3",
+		"num_rings": 5,
+		"image": "images/2182646.png",
+		"assay_results": [{
+			"result_id": 17790221,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 767,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2131816,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3oc(cc3)c4ccccc4Cl)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 562.99101,
+		"ALogP": 6.416,
+		"molecular_formula": "C31H25ClF2N2O4",
+		"num_rings": 5,
+		"image": "images/2131816.png",
+		"assay_results": [{
+			"result_id": 17790217,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2251994,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CC3C[C@@H]4CC[C@H]3C4)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 508.55631,
+		"ALogP": 4.536,
+		"molecular_formula": "C29H30F2N2O4",
+		"num_rings": 5,
+		"image": "images/2251994.png",
+		"assay_results": [{
+			"result_id": 17790211,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 116,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2169478,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCCOc3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 534.55053,
+		"ALogP": 4.558,
+		"molecular_formula": "C30H28F2N2O5",
+		"num_rings": 4,
+		"image": "images/2169478.png",
+		"assay_results": [{
+			"result_id": 17790206,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 304,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2099305,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)CCCC(=O)Nc3ccccc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 561.57587,
+		"ALogP": 3.945,
+		"molecular_formula": "C31H29F2N3O5",
+		"num_rings": 4,
+		"image": "images/2099305.png",
+		"assay_results": [{
+			"result_id": 17790202,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 284,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2125660,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3noc4ccccc34)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 531.50683,
+		"ALogP": 4.27,
+		"molecular_formula": "C29H23F2N3O5",
+		"num_rings": 5,
+		"image": "images/2125660.png",
+		"assay_results": [{
+			"result_id": 17790198,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 137,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2176417,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3cccc4ccccc34)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 540.55665,
+		"ALogP": 5.096,
+		"molecular_formula": "C32H26F2N2O4",
+		"num_rings": 5,
+		"image": "images/2176417.png",
+		"assay_results": [{
+			"result_id": 17790193,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 140,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2098840,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3cccc(OC)c3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 521.51201,
+		"ALogP": 4.045,
+		"molecular_formula": "C28H25F2N3O5",
+		"num_rings": 4,
+		"image": "images/2098840.png",
+		"assay_results": [{
+			"result_id": 17790184,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 1030,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2137553,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Nc3ccc(OC(F)(F)F)cc3)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 575.4834,
+		"ALogP": 6.181,
+		"molecular_formula": "C28H22F5N3O5",
+		"num_rings": 4,
+		"image": "images/2137553.png",
+		"assay_results": [{
+			"result_id": 17790180,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2107746,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NCc3ncccc3C)ccc2Oc4ccc(F)cc4F",
+		"molecular_weight": 477.50251,
+		"ALogP": 4.311,
+		"molecular_formula": "C27H25F2N3O3",
+		"num_rings": 4,
+		"image": "images/2107746.png",
+		"assay_results": [{
+			"result_id": 17790174,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 320,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2167381,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cn3ccc(n3)c4ccccc4F)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 574.54981,
+		"ALogP": 4.807,
+		"molecular_formula": "C31H25F3N4O4",
+		"num_rings": 5,
+		"image": "images/2167381.png",
+		"assay_results": [{
+			"result_id": 17790170,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": ">",
+			"value": 2380,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 2152891,
+		"smiles": "CCOC1=CC(=O)N(C)C=C1c2cc(NC(=O)Cc3ccc4OCCCc4c3)ccc2Oc5ccc(F)cc5F",
+		"molecular_weight": 546.56123,
+		"ALogP": 4.702,
+		"molecular_formula": "C31H28F2N2O5",
+		"num_rings": 5,
+		"image": "images/2152891.png",
+		"assay_results": [{
+			"result_id": 17790164,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Ki",
+			"operator": "=",
+			"value": 271,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1440191,
+		"smiles": "COc1ccccc1S(=O)(=O)Nc2ccc3NC(=O)N(C)Cc3c2",
+		"molecular_weight": 347.38888,
+		"ALogP": 1.376,
+		"molecular_formula": "C16H17N3O4S",
+		"num_rings": 3,
+		"image": "images/1440191.png",
+		"assay_results": [{
+			"result_id": 13477950,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 136,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1585157,
+		"smiles": "COc1cc2c3NC(=O)N([C@H](C)c4ccccn4)c3cnc2cc1c5c(C)onc5C",
+		"molecular_weight": 415.44454,
+		"ALogP": 2.601,
+		"molecular_formula": "C23H21N5O3",
+		"num_rings": 5,
+		"image": "images/1585157.png",
+		"assay_results": [{
+			"result_id": 13477951,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 100,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1524804,
+		"smiles": "Cc1onc(C)c1c2cc(O)cc(c2)[C@H](O)c3ccccc3",
+		"molecular_weight": 295.33248,
+		"ALogP": 2.996,
+		"molecular_formula": "C18H17NO3",
+		"num_rings": 3,
+		"image": "images/1524804.png",
+		"assay_results": [{
+			"result_id": 12679312,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 360,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1524811,
+		"smiles": "Cc1onc(C)c1c2cc(O)cc(c2)[C@@H](O)c3ccccc3",
+		"molecular_weight": 295.33248,
+		"ALogP": 2.996,
+		"molecular_formula": "C18H17NO3",
+		"num_rings": 3,
+		"image": "images/1524811.png",
+		"assay_results": [{
+			"result_id": 12679259,
+			"target": "Bromodomain-containing protein 4",
+			"result": "Kd",
+			"operator": "=",
+			"value": 390,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442535,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)N3CCNCC3",
+		"molecular_weight": 335.42124,
+		"ALogP": 1.255,
+		"molecular_formula": "C16H21N3O3S",
+		"num_rings": 3,
+		"image": "images/1442535.png",
+		"assay_results": [{
+			"result_id": 12161642,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 12000,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442562,
+		"smiles": "COc1ccc(NS(=O)(=O)c2cc(ccc2C)c3c(C)onc3C)cc1",
+		"molecular_weight": 372.4381,
+		"ALogP": 3.188,
+		"molecular_formula": "C19H20N2O4S",
+		"num_rings": 3,
+		"image": "images/1442562.png",
+		"assay_results": [{
+			"result_id": 12161657,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 5600,
+			"unit": "nM"
+		}]
+	},
+	{
+		"compound_id": 1442549,
+		"smiles": "Cc1onc(C)c1c2ccc(C)c(c2)S(=O)(=O)NC3CCCC3",
+		"molecular_weight": 334.43318,
+		"ALogP": 3.029,
+		"molecular_formula": "C17H22N2O3S",
+		"num_rings": 3,
+		"image": "images/1442549.png",
+		"assay_results": [{
+			"result_id": 12161670,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 500,
+			"unit": "nM"
+		}]
+	}
+]

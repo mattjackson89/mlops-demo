@@ -1,0 +1,72 @@
+{
+	"$id": "https://exscientia.ai/code_tests/compounds.json",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "A small data set of compounds and assay results extracted from ChEMBL",
+	"type": "array",
+	"required": [
+		"compound_id",
+		"smiles"
+	],
+	"properties": {
+		"compound_id": {
+			"type": "integer",
+			"description": "Unique identifier for a compound, this is the primary key."
+		},
+		"smiles": {
+			"type": "string",
+			"description": "String representation of the compound https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system."
+		},
+		"molecular_weight": {
+			"type": "number",
+			"description": "The weight of the compound, could be plotted on the X axis."
+		},
+		"ALogP": {
+			"type": "number",
+			"description": "Indicates if the compound will dissolve in water or not, could be plotted on the Y axis."
+		},
+		"molecular_formula": {
+			"type": "string",
+			"description": "A short string representation of the compound."
+		},
+		"num_rings": {
+			"type": "number",
+			"description": "A count of the rings in the compound, could be used to color a plot. https://en.wikipedia.org/wiki/Ring_(chemistry)"
+		},
+		"image": {
+			"type": "string",
+			"description": "Compounds are visualised as 2D graphs, path to a pre-calculated png image of the compound."
+		},
+		"assay_results": {
+			"type": "array",
+			"description": "The assay results for the compound (could be shown as Kd = 19uM) https://en.wikipedia.org/wiki/Assay.",
+			"properties": {
+                "result_id" : {
+                  "type": "integer",
+                  "description": "Unique identifier for an assay_result."
+                },
+				"target": {
+					"type": "string",
+					"description": "The long name of the biological target used in the assay."
+				},
+				"result": {
+					"type": "string",
+					"description": "The result type of the assay.",
+					"enum": ["IC50", "Ki", "Kd"]
+				},
+				"operator": {
+					"type": "string",
+					"description": "The value operator.",
+					"enum": ["=", ">", "<", "<=", ">=", "~", "*"]
+				},
+				"value": {
+					"type": "integer",
+					"description": "The result value."
+				},
+				"unit": {
+					"type": "string",
+					"description": "The result unit."
+				}
+			}
+		}
+	}
+}

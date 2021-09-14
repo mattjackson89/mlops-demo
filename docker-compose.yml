@@ -7,6 +7,7 @@ services:
       - "8888:8888"
     volumes:
       - ./notebooks:/home/jovyan/work/notebooks
+      - ./data:/home/jovyan/work/data
 
   demo-api:
     build: ./demo-api

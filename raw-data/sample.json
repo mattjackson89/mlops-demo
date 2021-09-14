@@ -1,0 +1,34 @@
+﻿[{
+		"compound_id": 1117973,
+		"smiles": "Cc1nnc2[C@H](NC(=O)OCc3ccccc3)N=C(c4ccccc4)c5ccccc5n12",
+		"molecular_weight": 423.46654,
+		"ALogP": 4.686,
+		"molecular_formula": "C25H21N5O2",
+		"num_rings": 5,
+		"image": "images/1117973.png",
+		"assay_results": [{
+				"result_id": 8046397,
+				"target": "Bromodomain-containing protein 4",
+				"result": "IC50",
+				"operator": "=",
+				"value": 15.5,
+				"unit": "nM"
+			}]
+	},
+{
+	"smiles": "Cc1nnc2[C@H](NC(=O)OCc3ccccc3)N=C(c4ccccc4)c5ccccc5n12",
+	"molecular_weight": 423.46654,
+	"ALogP": 4.686,
+	"molecular_formula": "C25H21N5O2",
+	"num_rings": 5,
+	"image": "images/1117973.png",
+	"assay_results": [{
+			"result_id": 8046397,
+			"target": "Bromodomain-containing protein 4",
+			"result": "IC50",
+			"operator": "=",
+			"value": 15.5,
+			"unit": "nM"
+		}]
+	}
+]
