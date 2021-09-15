@@ -1,5 +1,4 @@
-from typing import Optional
-
+import os
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -8,6 +7,9 @@ app = FastAPI()
 def welcome():
     return {"Hello": "World"}
 
-# Load data 
+@app.get("/models")
+def get_models():
+    return os.listdir("./models/")
+
 # Make prediction
 # Get model version 
