@@ -7,11 +7,6 @@ Data Pipelines form an important part of any operational machine learning system
 
 This area provides a very minimal example of some data ingest which can be ran locally. 
 
-## Run Me
-```
-python upload.py --data_loc ../../raw-data --file_name compounds.json --output_path ../../data-science/data/compound_rings.csv --dlq dlq.log
-```
-
 ## Deployment Patterns 
 There are many options to deploy data pipelines, in reality a mixture of tools are often used. For a simple script like this a suggested pattern would be to use AWS lambda triggered by a drop of new data in an s3 bucket, a step function could be used to clean up the files after processing. Cloudwatch could be used to monitor metrics and alert if neccessary. A more complex pipeline with dependencies could make use of a scheduling tool such as AirFlow. 
 
