@@ -1,6 +1,8 @@
 import os
 import mlflow
 from fastapi import FastAPI, File, UploadFile
+import numpy as np
+import matplotlib.pyplot as plt
 import logging
 logging.basicConfig(format="%(levelname)s:%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S", level="INFO")
 

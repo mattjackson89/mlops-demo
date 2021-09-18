@@ -65,13 +65,13 @@ For this example I have built a `demo-api`; a super simple API where we can get 
 
 ```
 # Welcome message 
-curl --request GET localhost:80
+curl -X GET localhost:80
 
 # Check what model versions are avaliable to us 
-curl --request GET localhost:80/models 
+curl -X GET localhost:80/models/ 
 
 # Make a prediction 
-curl --request POST -F "file=@./raw-data/images/27648.png" localhost:80/predict
+curl -X POST -F "image=@/c/Users/mjackson/projects/mlops-exsci-demo/raw-data/images/1117824.png" localhost:80/predict/
 ```
 
 Let's promote the v2 model (we can even pretend it was made after v1 had been monitored)
