@@ -10,7 +10,7 @@ from datetime import datetime
 from tqdm import tqdm
 from model import Compound
 from pydantic.error_wrappers import ValidationError
-from shutil import copytree 
+from shutil import copytree, rmtree
 
 def write_to_dlq(file_path, json_data):
     """Add a json line to the dlq."""
@@ -90,11 +90,15 @@ def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./
             # Save data
             values = f"{compound_data.compound_id},{compound_data.num_rings},{compound_data.image}\n"
             out_file.write(values) 
+    logging.info(f"Written data to {output_file}, {bad_data_counter} lines sent to the dlq at {dlq}")    
 
     # Save images for processing 
-    copytree(os.path.join(data_loc, "images"), os.path.join(data_loc, "images")) # TODO fix this
+    image_output_dir = os.path.join(output_path, "images")
+    if os.path.exists(image_output_dir):
+        rmtree(image_output_dir)
+    copytree(os.path.join(data_loc, "images"), image_output_dir) 
+    logging.info(f"Uploaded images to {image_output_dir}")    
 
-    logging.info(f"Written data to {output_file}, {bad_data_counter} lines sent to the dlq at {dlq}")    
 
 if __name__ == "__main__":
 
