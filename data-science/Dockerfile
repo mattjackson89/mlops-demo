@@ -1,4 +1,6 @@
-FROM jupyter/tensorflow-notebook
+FROM jupyter/base-notebook
 
-RUN conda install --quiet --yes keras
-RUN conda install --quiet --yes mlflow
+RUN pip install mlflow
+RUN pip install tensorflow
+RUN pip install matplotlib
+RUN pip install sklearn

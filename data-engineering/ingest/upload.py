@@ -10,7 +10,7 @@ from datetime import datetime
 from tqdm import tqdm
 from model import Compound
 from pydantic.error_wrappers import ValidationError
-from distutils.dir_util import copy_tree
+from shutil import copytree 
 
 def write_to_dlq(file_path, json_data):
     """Add a json line to the dlq."""
@@ -19,7 +19,7 @@ def write_to_dlq(file_path, json_data):
         json.dump(json_data, dql_fp)
         dql_fp.write("\n") 
 
-def process_json(data_loc: str, file_name: str, output_path: str, dlq: str = "./dlq.log") -> None:
+def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./dlq.log") -> None:
     """Simple script to load json data, validate and output csv.
     
     Args:
@@ -41,7 +41,7 @@ def process_json(data_loc: str, file_name: str, output_path: str, dlq: str = "./
     with open(output_file, "w") as out_file:
 
         # Write out headers 
-        out_file.write("compound_id, num_rings, image\n")
+        out_file.write("compound_id,num_rings,image\n")
 
         # Iterate over compounds, loading into the pydantic model 
         bad_data_counter = 0
@@ -88,29 +88,20 @@ def process_json(data_loc: str, file_name: str, output_path: str, dlq: str = "./
                 continue 
 
             # Save data
-            values = f"{compound_data.compound_id}, {compound_data.num_rings}, {compound_data.image}\n"
+            values = f"{compound_data.compound_id},{compound_data.num_rings},{compound_data.image}\n"
             out_file.write(values) 
 
-    logging.info(f"Written data to {output_file}, {bad_data_counter} lines sent to the dlq at {dlq}")
-        
-def upload_images(data_loc, output_path):
-    """Move the images to the data science location.
-    
-    Args:
-        data_loc (str): Full path to raw data location
-        output_path (str): Full path and name of the output data file
-    """
+    # Save images for processing 
+    copytree(os.path.join(data_loc, "images"), os.path.join(data_loc, "images")) # TODO fix this
 
-    image_dir = os.path.join(data_loc, "images")
-    output_image_dir = os.path.join(output_path, "images")
-    copy_tree(image_dir, output_image_dir)
-    logging.info(f"Copied images from {image_dir} to {output_image_dir}")
+    logging.info(f"Written data to {output_file}, {bad_data_counter} lines sent to the dlq at {dlq}")    
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_loc", help="Full path to raw data location", type=str)
     parser.add_argument("--file_name", help="Name of the json file to load", type=str)
-    parser.add_argument("--output_path", help="Full path and name of the output data file", type=str)
+    parser.add_argument("--output_path", help="Path of the output data dir", type=str)
     parser.add_argument("--dlq", help="Full path and name of the dlq file", type=str, required=False)
     parser.add_argument("--log_level", help="Output level of logging", 
                                        type=str, 
@@ -123,5 +114,4 @@ if __name__ == "__main__":
     # Set up some basic logging 
     logging.basicConfig(format="%(levelname)s:%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S", level="INFO")
 
-    process_json(args.data_loc, args.file_name, args.output_path, args.dlq)
-    upload_images(args.data_loc, args.output_path)
+    process_data(args.data_loc, args.file_name, args.output_path, args.dlq)
