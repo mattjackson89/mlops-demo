@@ -35,3 +35,6 @@ services:
     build: ./demo-api
     ports:
       - 80:80
+    environment:
+      MAX_WORKERS: 1 # So tensorflow doesn't bring down the laptop! 
+      LOG_LEVEL: info
