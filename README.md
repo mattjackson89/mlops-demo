@@ -31,3 +31,29 @@ python data-engineering/ingest/upload.py --data_loc raw-data --file_name compoun
 ```
 
 For full details see [the data-engineering README](data-engineering/README.md)
+
+## Modelling 
+Both data and modelling are itterative processes. This demo aims to demostrate how this might work in an operational environment. Use the link provided by Docker to access the data-science notebook environment and follow the instructions in `train_v1.pynb`. In the notebook we; 
+
+* Train a simple toy model 
+* Evaluate the results (badly) 
+* Use MLFlow to track the model performance across runs 
+* Save the model 
+
+Once the notebook has ran, please go ahead and the following from your command line; 
+
+```
+./update-models.sh v1
+```
+
+This will update the models for our API and promote v1 to latest. 
+
+A model tracking system such as the one demonstrated here is vital to allow the required iteration on modelling and data. Additional steps could include;
+* Saving the model pre-processing steps either as a pipeline to save with the model or as a package to deploy with the API
+* Use the MLFlow Model registry backed by s3 to log models and make deployment even easier 
+* Use the `data-science` environment to improve the model further 
+
+## Deployment 
+For this example I have built a `demo-api`; a super simple API where we can get some model predictions. This locally deployed API could be deployed on AWS ECS or alternative. Our v1 model should be deployed, we can make some calls. 
+
+
