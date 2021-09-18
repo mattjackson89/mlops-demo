@@ -10,6 +10,7 @@ from datetime import datetime
 from tqdm import tqdm
 from model import Compound
 from pydantic.error_wrappers import ValidationError
+from distutils.dir_util import copy_tree
 
 def write_to_dlq(file_path, json_data):
     """Add a json line to the dlq."""
@@ -24,7 +25,7 @@ def process_json(data_loc: str, file_name: str, output_path: str, dlq: str = "./
     Args:
         data_loc (str): Full path to raw data location
         file_name (str): Name of the json file to load  
-        output_path (str): Full path and name of the output data file
+        output_path (str): Path to the output data directory
         dlq (str, optional): Full path and name of dlq file 
     """
 
@@ -36,7 +37,8 @@ def process_json(data_loc: str, file_name: str, output_path: str, dlq: str = "./
     logging.info("Loaded raw data, processing...")
 
     # Upload the data 
-    with open(output_path, "w") as out_file:
+    output_file = os.path.join(output_path, "compound_rings.csv")
+    with open(output_file, "w") as out_file:
 
         # Write out headers 
         out_file.write("compound_id, num_rings, image\n")
@@ -89,9 +91,20 @@ def process_json(data_loc: str, file_name: str, output_path: str, dlq: str = "./
             values = f"{compound_data.compound_id}, {compound_data.num_rings}, {compound_data.image}\n"
             out_file.write(values) 
 
-    logging.info(f"Written data to {output_path}, {bad_data_counter} lines sent to the dlq at {dlq}")
+    logging.info(f"Written data to {output_file}, {bad_data_counter} lines sent to the dlq at {dlq}")
         
+def upload_images(data_loc, output_path):
+    """Move the images to the data science location.
+    
+    Args:
+        data_loc (str): Full path to raw data location
+        output_path (str): Full path and name of the output data file
+    """
 
+    image_dir = os.path.join(data_loc, "images")
+    output_image_dir = os.path.join(output_path, "images")
+    copy_tree(image_dir, output_image_dir)
+    logging.info(f"Copied images from {image_dir} to {output_image_dir}")
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
@@ -111,3 +124,4 @@ if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s:%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S", level="INFO")
 
     process_json(args.data_loc, args.file_name, args.output_path, args.dlq)
+    upload_images(args.data_loc, args.output_path)

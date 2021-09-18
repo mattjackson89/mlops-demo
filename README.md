@@ -27,7 +27,7 @@ In reality scoping is an extremely important part of the MLOps lifecycle!
 It is important to build a data pipeline which delivers a consistent set of data for our needs. A simple tool has been developed to do this via the command line, run with;
 
 ```
-python data-engineering/ingest/upload.py --data_loc raw-data --file_name compounds.json --output_path data-science/data/compound_rings.csv --dlq dlq.log
+python data-engineering/ingest/upload.py --data_loc raw-data --file_name compounds.json --output_path data-science/data --dlq dlq.log
 ```
 
 For full details see [the data-engineering README](data-engineering/README.md)
