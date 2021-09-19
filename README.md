@@ -124,8 +124,8 @@ There are tonnes of things to do! In reality this repo is a reflection of a few 
 * CI/CD is important for ease and consistency of deplying production systems, given time I would like to 
     * Add pre-commit hooks to ensure things like linting (e.g. Flake/Black) and security are consistently (e.g. Bandit) dealt with before any commits are made
     * GitHub actions (or alternative) could help deploy the API, ensuring any checks and tests are complete before making a release 
-    * Extend testing 
-    * API monitoring 
+    * Extend testing (currently just a dummy example in the API, to run locally install API requirements and call `pytest test_main.py`)
+    * API monitoring - as well as monitoring the models we should monitor the infrastructure and performance
 * More consistent versioning and requirements management
 * Environment specific config (dev, prod etc)
 * Lots of model development!! 
