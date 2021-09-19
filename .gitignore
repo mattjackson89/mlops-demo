@@ -136,3 +136,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Project specific 
+data-science/data/images
+data-science/data/compound_rings.csv
