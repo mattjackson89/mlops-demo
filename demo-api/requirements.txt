@@ -2,3 +2,4 @@ mlflow
 tensorflow
 matplotlib
 python-multipart
+Pillow

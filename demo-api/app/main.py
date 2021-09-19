@@ -2,28 +2,37 @@ import os
 import mlflow
 from fastapi import FastAPI, File, UploadFile
 import numpy as np
-import matplotlib.pyplot as plt
 import logging
-logging.basicConfig(format="%(levelname)s:%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S", level="INFO")
+from PIL import Image
+from io import BytesIO
 
 app = FastAPI()
 model = mlflow.keras.load_model("models/latest")
 
+logging.basicConfig(format="%(levelname)s:%(asctime)s %(message)s", datefmt="%m/%d/%Y %I:%M:%S", level="INFO")
+
 @app.get("/")
 def welcome():
+    """Say hello."""
     return "Welcome to the MLOps Demo!"
 
 @app.get("/models/")
 def get_models():
-    logging.info("CHECK get_models")
+    """Return a list of all avaliable models."""
     return os.listdir("./models/")
 
 @app.post("/predict/")
 def predict_rings(image: UploadFile = File(...)):
-    logging.info("CHECK predict 1")
-    logging.info(image.filename)
-    image_data = np.array([plt.imread(image)])
-    logging.info("CHECK predict 2")
-    res = model.predict(image_data)
-    logging.info("CHECK predict 3")
-    return {"data": image_data, "result": res}
+    """Upload an image and make a prediction."""
+
+    # Load and reshape the image for prediction
+    # Expecting (-1, 300, 300, 3)
+    image_data = np.array(Image.open(BytesIO(image.file.read())))
+    image_data = np.reshape(image_data, (-1, 300, 300, 3))
+
+    # Make a prediction
+    pred = model.predict(image_data)
+    n_rings_pred = pred.argmax() + 1 # This should be dealt with better, it's ok for now. 
+    
+    return {"n_rings_pred": int(n_rings_pred)}
+
