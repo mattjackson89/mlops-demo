@@ -36,6 +36,11 @@ def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./
 
     logging.info("Loaded raw data, processing...")
 
+    # Check dir exists 
+    if not os.path.isdir(output_path):
+        logging.info(f"Making new directory for data at {output_path}")
+        os.mkdir(output_path)
+
     # Upload the data 
     output_file = os.path.join(output_path, "compound_rings.csv")
     with open(output_file, "w") as out_file:

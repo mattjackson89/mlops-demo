@@ -9,6 +9,27 @@ This repo contains an stripped back MLProject and aims to demostrate some key ML
 ## Getting Started 
 To get the full MLOps experience please continue to run through this README and follow along, at this point you should be in the repos root directory. 
 
+### Pre-requisites 
+* Docker 
+* Access to a unix command line 
+* Local python environment running python 3.9.6 or later (this can be achieved using venv, conda or otherwise)
+* Installed the local-requirements.txt in your virtual environment  
+
+This can be achived with conda using the following commands
+```
+conda create --name mlops-demo python=3.9.6 --file local-requirements.txt
+conda activate mlops-demo
+```
+
+### Start Up
+Before we run through the MLFlow demo, let's spin everything we need up. 
+
+```
+docker-compose build && docker-compose up
+```
+
+> **Note** - This local deployment has multple containers which could be optimsied, if it is struggling ensure Docker has enough CPU and memory access! 
+
 ## MLOps
 MLOps is responsible for the full lifecycle of a Machine Learning system, the image below is taken from Andrew Ng's Introduction to ML in Production Coursera course and shows the distinct steps of this iterative process.
 
@@ -33,7 +54,7 @@ python data-engineering/ingest/upload.py --data_loc raw-data --file_name compoun
 I added some "bad data" to show how the dlq might work, it hasn't been processed but you can have a look;
 
 ```
-less dlq.log
+less data-engineering/ingest/dlq.log
 ```
 
 For full details see [the data-engineering README](data-engineering/README.md)
@@ -70,6 +91,9 @@ curl -X GET localhost:80
 # Check what model versions are avaliable to us 
 curl -X GET localhost:80/models/ 
 
+# Check v1 was deployed 
+curl -X GET localhost:80/deployed_version/
+
 # Make a prediction 
 curl -X POST -F "image=@raw-data/images/2176417.png" localhost:80/predict/
 ```
@@ -83,15 +107,20 @@ Let's promote the v2 model (we can even pretend it was made after v1 had been mo
 We can now check the model deployed and make another prediction.
 
 ```
+# Check v2 was successfully deployed 
 curl -X GET localhost:80/deployed_version/
+
+# Make another prediction
 curl -X POST -F "image=@raw-data/images/2176417.png" localhost:80/predict/
 ```
 
 ## Next Steps
-There are tonnes of things to do! In reality this repo is a reflection of a few different ideas so would likely be split and deployed seperatly. Some ideas to take forward include; 
+There are tonnes of things to do! In reality this repo is a reflection of a few different ideas so would likely be split and deployed seperatly. Some things to take forward include; 
 
-* Model monitoring is absent from this demo but it is important to track; this could be model metrics e.g. how certain predictions are or even feedback from the user if appropriate. Monitoring allows us to react to changes in data/model performance and alert that retraining may be required 
+* Model monitoring - it is absent from this demo but it is important to track; this could be model metrics e.g. how certain predictions are or even feedback from the user if appropriate. Monitoring allows us to react to changes in data/model performance and alert that retraining may be required 
+* API error handling (any)
 * Model code is duplicated across training and deployment, packaging or including into the model pipeline is important for consistency
+* Utilise MLFlow model registry rather than the how cooked local version here
 * CI/CD is important for ease and consistency of deplying production systems, given time I would like to 
     * Add pre-commit hooks to ensure things like linting (e.g. Flake/Black) and security are consistently (e.g. Bandit) dealt with before any commits are made
     * GitHub actions (or alternative) could help deploy the API, ensuring any checks and tests are complete before making a release 
