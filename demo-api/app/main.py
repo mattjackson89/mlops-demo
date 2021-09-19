@@ -14,12 +14,22 @@ logging.basicConfig(format="%(levelname)s:%(asctime)s %(message)s", datefmt="%m/
 @app.get("/")
 def welcome():
     """Say hello."""
-    return "Welcome to the MLOps Demo!"
+    return {"message:": "Welcome to the MLOps Demo!"}
 
 @app.get("/models/")
 def get_models():
     """Return a list of all avaliable models."""
-    return os.listdir("./models/")
+    versions = [v for v in os.listdir("./models/") if v not in ["latest", "latest.txt"]]
+    return {"avaliable_models": versions}
+
+@app.get("/deployed_version/")
+def get_deployed_version():
+    """Returns the deployed model version according to latest.txt."""
+
+    with open("models/latest.txt", "r") as df:
+        version = df.read().strip()
+    
+    return {"version": version}
 
 @app.post("/predict/")
 def predict_rings(image: UploadFile = File(...)):

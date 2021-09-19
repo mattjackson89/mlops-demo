@@ -13,3 +13,11 @@ cp -r data-science/models demo-api/app/
 rm -rf demo-api/app/models/latest
 echo demo-api/app/models/"$VERSION"
 cp -r demo-api/app/models/"$VERSION" demo-api/app/models/latest
+
+# Track the model 
+rm demo-api/app/models/latest.txt
+echo "$VERSION" > demo-api/app/models/latest.txt
+
+# Restarting service 
+echo "Restarting demo-api"
+docker-compose up -d --no-deps --build demo-api

@@ -60,6 +60,7 @@ def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./
                             "data": row}
                 write_to_dlq(dlq, dlq_info)
                 bad_data_counter += 1
+                logging.warning(f"Bad data, not processed, check {dlq} for info.")
                 continue 
 
             # Additional validation
@@ -73,6 +74,7 @@ def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./
                             "data": row}
                 write_to_dlq(dlq, dlq_info)
                 bad_data_counter += 1
+                logging.warning(f"Bad data, not processed, check {dlq} for info.")
                 continue 
 
             image_file_path = os.path.join(data_loc, compound_data.image)
@@ -85,6 +87,7 @@ def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./
                             "data": row}
                 write_to_dlq(dlq, dlq_info)
                 bad_data_counter += 1
+                logging.warning(f"Bad data, not processed, check {dlq} for info.")
                 continue 
 
             # Save data

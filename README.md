@@ -27,7 +27,7 @@ In reality scoping is an extremely important part of the MLOps lifecycle!
 It is important to build a data pipeline which delivers a consistent set of data for our needs. A simple tool has been developed to do this via the command line, run with;
 
 ```
-python data-engineering/ingest/upload.py --data_loc raw-data --file_name compounds.json --output_path data-science/data --dlq dlq.log
+python data-engineering/ingest/upload.py --data_loc raw-data --file_name compounds.json --output_path data-science/data --dlq data-engineering/ingest/dlq.log
 ```
 
 I added some "bad data" to show how the dlq might work, it hasn't been processed but you can have a look;
@@ -71,10 +71,21 @@ curl -X GET localhost:80
 curl -X GET localhost:80/models/ 
 
 # Make a prediction 
-curl -X POST -F "image=@/c/Users/mjackson/projects/mlops-exsci-demo/raw-data/images/1117824.png" localhost:80/predict/
+curl -X POST -F "image=@raw-data/images/2176417.png" localhost:80/predict/
 ```
 
-Let's promote the v2 model (we can even pretend it was made after v1 had been monitored)
+Let's promote the v2 model (we can even pretend it was made after v1 had been monitored and we had reacted to some need for perfomance improvements).
+
+```
+./update-models.sh v2
+```
+
+We can now check the model deployed and make another prediction.
+
+```
+curl -X GET localhost:80/deployed_version/
+curl -X POST -F "image=@raw-data/images/2176417.png" localhost:80/predict/
+```
 
 ## Next Steps
 There are tonnes of things to do! In reality this repo is a reflection of a few different ideas so would likely be split and deployed seperatly. Some ideas to take forward include; 
