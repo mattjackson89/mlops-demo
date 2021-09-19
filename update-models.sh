@@ -2,8 +2,6 @@
 
 # This is a very simple way to achieve this, in reality this would be done using the model registry
 
-#!/usr/bin/env bash
-
 VERSION=${1:-v1}
 
 # Copy the models 

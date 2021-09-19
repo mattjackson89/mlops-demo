@@ -7,7 +7,7 @@ This repo contains an stripped back MLProject and aims to demostrate some key ML
 * :astronaut: highlight how a similar system might look outside of this single repo
 
 ## Getting Started 
-To get the full MLOps experience please continue to run through this README and follow along, at this point you should be in the repos root directory. 
+To get the full MLOps experience please continue to run through this README and follow along, at this point you should be in the repos **root directory**. 
 
 ### Pre-requisites 
 * Docker 
