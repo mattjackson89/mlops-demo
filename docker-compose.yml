@@ -2,34 +2,34 @@ version: "3"
 
 services:
 
-  # data-science:
-  #   build: ./data-science
-  #   ports:
-  #     - "8888:8888"
-  #   volumes:
-  #     - ./data-science:/home/jovyan/data-science
-  #   environment: 
-  #     MLFLOW_TRACKING_URI: "http://mlflow:5000"
-  #   depends_on:
-  #     - mlflow
+  data-science:
+    build: ./data-science
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./data-science:/home/jovyan/data-science
+    environment: 
+      MLFLOW_TRACKING_URI: "http://mlflow:5000"
+    depends_on:
+      - mlflow
 
-  # mlflow:
-  #   build: ./mlflow
-  #   expose:
-  #     - "5000"
-  #   ports:
-  #     - "5000:5000"
-  #   depends_on:
-  #     - postgresql
+  mlflow:
+    build: ./mlflow
+    expose:
+      - "5000"
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgresql
   
-  # postgresql:
-  #   build: ./mlflow/backend
-  #   restart: always
-  #   environment:
-  #     POSTGRES_USER: "admin"
-  #     POSTGRES_PASSWORD: "secret"
-  #   ports:
-  #     - "5432:5432"
+  postgresql:
+    build: ./mlflow/backend
+    restart: always
+    environment:
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "secret"
+    ports:
+      - "5432:5432"
   
   demo-api:
     build: ./demo-api
