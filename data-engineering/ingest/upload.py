@@ -96,7 +96,7 @@ def process_data(data_loc: str, file_name: str, output_path: str, dlq: str = "./
                 continue 
 
             # Save data
-            values = f"{compound_data.compound_id},{compound_data.num_rings},{compound_data.image}\n"
+            values = f"{compound_data.compound_id},{compound_data.num_rings},{image_file_path}\n"
             out_file.write(values) 
     logging.info(f"Written data to {output_file}, {bad_data_counter} lines sent to the dlq at {dlq}")    
 

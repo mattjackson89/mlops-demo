@@ -22,11 +22,13 @@ conda activate mlops-demo
 ```
 
 ### Start Up
-Before we run through the MLFlow demo, let's spin everything we need up. 
+Before we run through the MLFlow demo, let's spin everything we need up, open a new tab and run;
 
 ```
 docker-compose build && docker-compose up
 ```
+
+> **Waring** - the first time building the containers may task some time... looking at you Tensorflow! 
 
 > **Note** - This local deployment has multple containers which could be optimsied, if it is struggling ensure Docker has enough CPU and memory access! 
 
@@ -57,10 +59,24 @@ I added some "bad data" to show how the dlq might work, it hasn't been processed
 less data-engineering/ingest/dlq.log
 ```
 
+Processed data is now available in `data-science/data` as a single `compound_rings.csv` file and a directory containing the images for training. 
+
 For full details see [the data-engineering README](data-engineering/README.md)
 
 ### Modelling 
-Both data and modelling are itterative processes. This demo aims to demostrate how this might work in an operational environment. Use the link provided by Docker to access the data-science notebook environment and follow the instructions in `train.pynb`. In the notebook we; 
+Both data and modelling are itterative processes. This demo aims to demostrate how this might work in an operational environment. 
+
+One of the containers we started provides a notebooking environment, in the docker-compose tab you should see some logs similar to;
+
+```
+data-science_1  |     To access the notebook, open this file in a browser:
+data-science_1  |         file:///home/jovyan/.local/share/jupyter/runtime/nbserver-8-open.html
+data-science_1  |     Or copy and paste one of these URLs:
+data-science_1  |         http://8719d239343f:8888/?token=f23121bbd6745a2754e60c032d5193bbc8bdd7fb4c9d03d8
+data-science_1  |      or http://127.0.0.1:8888/?token=f23121bbd6745a2754e60c032d5193bbc8bdd7fb4c9d03d8
+```
+
+Use the link to access the data-science notebook environment and follow the instructions in `data-scienc/train_models.ipynb.pynb`. In the notebook we; 
 
 * Train a simple toy model 
 * Evaluate the results (badly) 
@@ -68,7 +84,9 @@ Both data and modelling are itterative processes. This demo aims to demostrate h
 * Save the model 
 * Make a second model to demostrate MLFlow logging and deployment patterns
 
-Once the notebook has ran, please go ahead and the following from your command line; 
+> See http://localhost:5000/ to view the tracked experiment
+
+Once the notebook has finished running, please go ahead and the following from your command line; 
 
 ```
 ./update-models.sh v1
