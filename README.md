@@ -76,7 +76,7 @@ data-science_1  |         http://8719d239343f:8888/?token=f23121bbd6745a2754e60c
 data-science_1  |      or http://127.0.0.1:8888/?token=f23121bbd6745a2754e60c032d5193bbc8bdd7fb4c9d03d8
 ```
 
-Use the link to access the data-science notebook environment and follow the instructions in `data-scienc/train_models.ipynb.pynb`. In the notebook we; 
+Use the link to access the data-science notebook environment and follow the instructions in `data-scienc/train.pynb`. In the notebook we; 
 
 * Train a simple toy model 
 * Evaluate the results (badly) 
@@ -131,6 +131,15 @@ curl -X GET localhost:80/deployed_version/
 # Make another prediction
 curl -X POST -F "image=@raw-data/images/2176417.png" localhost:80/predict/
 ```
+
+> Some basic documentation for the API can be found at http://localhost:80/docs
+
+:tada: you have reached the end of the demo, we have;
+* Pretented to scope a project 
+* Looked at some data pipeline principles to support our model training efforts 
+* Trained a (terrible) model to predict the number of rings in a compound 
+* Tracked model performance using MLFlow
+* Deployed different versions of our model using a simple API 
 
 ## Next Steps
 There are tonnes of things to do! In reality this repo is a reflection of a few different ideas so would likely be split and deployed seperatly. Some things to take forward include; 
