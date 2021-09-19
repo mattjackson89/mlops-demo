@@ -1,4 +1,4 @@
-# mlops-exsci-demo
+# mlops-demo
 This repo contains an stripped back MLProject and aims to demostrate some key MLOps principles and practices. 
 
 ## Aims
